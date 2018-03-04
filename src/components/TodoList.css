@@ -1,0 +1,42 @@
+.list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.elemList {
+	width: 300px;
+	height: 50px;
+	background-color: #69dd7c;
+	color: #395c2e;
+	margin: 2px;
+	padding-left: 5px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.addTodo {
+	width: 300px;
+	height: 50px;
+	background-color:#69dd7c;
+	color:#395c2e;
+	margin: 2px;
+	padding-left: 5px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	border: none;
+	font-size: 20px;
+}
+
+.addTodo:focus {
+	color: #000;
+}
+
+.addTodo::placeholder { 
+	color: #000;
+	font-size: 20px;
+}
